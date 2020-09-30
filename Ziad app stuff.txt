@@ -1,0 +1,13 @@
+E7:AE:D6:71:A1:1A:7B:34:BB:7B:96:E1:60:E2:8E:87:0B:82:21:5D
+
+flutter run --enable-software-rendering
+
+  Navigator.push(context,
+              MaterialPageRoute(builder: (context) => MyHomePage(user)))
+
+
+@override
+  void initState() {
+    super.initState();
+    signOutGoogle();
+  }
